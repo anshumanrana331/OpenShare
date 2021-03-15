@@ -10,7 +10,8 @@ const emailForm = document.querySelector('#email-form');
 const toast = document.querySelector('.toast');
 
 const fileURLInput = document.querySelector('#fileURL');
-const host = 'https://shadowcyng-inshare.herokuapp.com'
+const host = 'https://openshare123.herokuapp.com/';
+
 const uploadURL = `${host}/api/files`; //from backend
 const emailURL = `${host}/api/files/send`; //from backend
 
